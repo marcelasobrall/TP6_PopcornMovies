@@ -1,5 +1,3 @@
-// Login.jsx
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -10,11 +8,6 @@ const Login = ({ handleLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Aqui você pode adicionar sua lógica de autenticação
-    // Verifique se as credenciais são válidas
-
-    // Simulando uma verificação de login bem-sucedida
     handleLogin();
     navigate("/");
   };
